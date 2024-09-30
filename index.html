@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invest Chelmsford</title>
+    <link rel="stylesheet" href="/slick/slick.css">
+    <link rel="stylesheet" href="/slick/slick-theme.css">
     <link rel="stylesheet" href="css_reset.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -156,7 +159,36 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum inventore iusto soluta,
             consequuntur dolores illo incidunt eos ratione tempore repellendus sit ipsum dignissimos
             commodi quia debitis enim sapiente deserunt quod.</p>
+
+        <div class="businesses-carousel">
+            <img
+                src="https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1200">
+            <img
+                src="https://images.pexels.com/photos/170809/pexels-photo-170809.jpeg?auto=compress&cs=tinysrgb&w=1200">
+            <img
+                src="https://images.pexels.com/photos/104372/pexels-photo-104372.jpeg?auto=compress&cs=tinysrgb&w=1200">
+            <img
+                src="https://cc-prod.scene7.com/is/image/CCProdAuthor/mascot-logo-design_P1_900x420?$pjpeg$&jpegSize=200&wid=900">
+            <img src="https://logos-world.net/wp-content/uploads/2020/05/Huawei-Logo.jpg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2F37ltfCHB37eg5E6Nkl1grn1KoOIdILJvw&s">
+        </div>
     </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.businesses-carousel').slick({
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -253,6 +253,7 @@ button.search {
   background-color: var(--custommint);
   font-family: sans-serif;
   padding: 10vh 10vw;
+  color: var(--customblue);
 }
 
 .latest-news > .latest-news-content > h2 {
@@ -263,7 +264,29 @@ button.search {
   margin-bottom: 10vh;
 }
 
+.latest-news p {
+  margin-bottom: 10vh;
+}
+
 .latest-news-content .flex-wrapper {
   justify-content: space-between;
   margin-bottom: 10vh;
+}
+
+/* Businesses carousel */
+.businesses-carousel {
+  display: flex;
+  max-width: 100vw;
+  gap: 1vw;
+}
+
+.businesses-carousel img {
+  height: 100px;
+  object-fit: contain;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  opacity: 1;
+  color: var(--customblue);
 }
