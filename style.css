@@ -1,0 +1,107 @@
+/*Set theme colors*/
+
+:root {
+  --customblue: #004751;
+  --customyellow: #ffb81c;
+  --customlightblue: #47c7c2;
+  --customgreen: #48d597;
+  --custommint: #d6f1ef;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.hero {
+  background-color: var(--customblue);
+  height: 100vh;
+}
+
+nav {
+  background-color: red;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo {
+  width: 20vw;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+  margin-right: 5vw;
+}
+
+.get-in-touch {
+  background-color: var(--customyellow);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: var(--customblue);
+}
+
+button.search {
+  background-color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1vw;
+  border-radius: 1rem;
+  color: var(--customblue);
+  font-weight: bold;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.hero-text {
+  margin-left: 5vw;
+  color: white;
+  width: 40vw;
+  font-family: sans-serif;
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.hero-text p {
+  margin-bottom: 1rem;
+}
+
+.hero-text button {
+  background-color: var(--customyellow);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: var(--customblue);
+}
+
+.hero-image {
+  margin-top: 20vh;
+  height: 100%;
+  width: 60vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* Main section */
