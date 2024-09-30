@@ -149,6 +149,10 @@ button.search {
 }
 
 /* Top figures */
+.top-figures {
+  margin-bottom: 10vh;
+}
+
 .top-figures .intro-text {
   color: var(--customblue);
 }
@@ -182,4 +186,59 @@ button.search {
 
 .figure.green {
   border-top: 5px solid var(--customgreen);
+}
+
+/* Panels */
+
+.color-panels .flex-wrapper {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel {
+  width: 30%;
+  height: 75vh;
+  border-radius: 4vh;
+  overflow: hidden;
+}
+
+.panel.yellow {
+  background-color: var(--customyellow);
+}
+
+.panel.green {
+  background-color: var(--customgreen);
+}
+
+.panel.lightblue {
+  background-color: var(--customlightblue);
+}
+
+.panel-image {
+  height: 50%;
+}
+
+.panel-text {
+  margin: 3vh 2vw;
+  color: var(--customblue);
+}
+
+.panel-text h2 {
+  font-size: 2rem;
+  margin-bottom: 2vh;
+  font-weight: bold;
+}
+
+.panel-text p {
+  font-size: 0.9rem;
+  margin-bottom: 2vh;
+}
+
+.panel-text button {
+  background-color: var(--customblue);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
 }
