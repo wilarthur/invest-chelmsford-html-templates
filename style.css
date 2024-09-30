@@ -19,7 +19,6 @@
 }
 
 nav {
-  background-color: red;
   height: 10vh;
   display: flex;
   justify-content: space-between;
@@ -103,5 +102,31 @@ button.search {
   background-position: center;
 }
 
-
 /* Main section */
+.main {
+  font-family: sans-serif;
+  padding: 10vh 10vw;
+}
+
+.intro-text {
+  font-size: 2rem;
+  margin-bottom: 10vh;
+}
+
+.intro-text p {
+  margin-bottom: 2vh;
+}
+
+.intro-text button {
+  background-color: var(--customblue);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.full-width-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
