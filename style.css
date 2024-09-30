@@ -278,6 +278,7 @@ button.search {
   display: flex;
   max-width: 100vw;
   gap: 1vw;
+  margin-bottom: 10vh;
 }
 
 .businesses-carousel img {
@@ -289,4 +290,12 @@ button.search {
 .slick-next::before {
   opacity: 1;
   color: var(--customblue);
+}
+
+/* Homepage contact us section */
+section.contact-us {
+  background-color: var(--customblue);
+  font-family: sans-serif;
+  padding: 10vh 10vw;
+  color: white;
 }
