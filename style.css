@@ -190,6 +190,10 @@ button.search {
 
 /* Panels */
 
+.color-panels {
+  margin-bottom: 10vh;
+}
+
 .color-panels .flex-wrapper {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -201,6 +205,7 @@ button.search {
   height: 75vh;
   border-radius: 4vh;
   overflow: hidden;
+  background-color: white;
 }
 
 .panel.yellow {
@@ -241,4 +246,24 @@ button.search {
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
+}
+
+/* Homepage news */
+.latest-news {
+  background-color: var(--custommint);
+  font-family: sans-serif;
+  padding: 10vh 10vw;
+}
+
+.latest-news > .latest-news-content > h2 {
+  padding-top: 10vh;
+  color: var(--customblue);
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10vh;
+}
+
+.latest-news-content .flex-wrapper {
+  justify-content: space-between;
+  margin-bottom: 10vh;
 }
