@@ -152,3 +152,34 @@ button.search {
 .top-figures .intro-text {
   color: var(--customblue);
 }
+
+.top-figures .flex-wrapper {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.figure {
+  width: 30%;
+  height: 30vh;
+  color: var(--customblue);
+  font-weight: bold;
+}
+
+.figure span {
+  font-size: 5rem;
+  display: block;
+  margin: 3vh 0;
+}
+
+.figure.yellow {
+  border-top: 5px solid var(--customyellow);
+}
+
+.figure.lightblue {
+  border-top: 5px solid var(--customlightblue);
+}
+
+.figure.green {
+  border-top: 5px solid var(--customgreen);
+}
