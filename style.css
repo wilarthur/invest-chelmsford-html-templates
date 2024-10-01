@@ -122,6 +122,7 @@ button.search {
 .intro-text {
   font-size: 2rem;
   margin-bottom: 10vh;
+  line-height: 6vh;
 }
 
 .intro-text p {
