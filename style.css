@@ -30,6 +30,13 @@ nav {
 
 nav .logo {
   width: 20vw;
+  margin-left: 5vw;
+  display: flex;
+  align-items: center;
+}
+
+nav .logo a img {
+  height: 7vh;
 }
 
 nav a {
