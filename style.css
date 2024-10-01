@@ -306,8 +306,44 @@ section.contact-us {
   background-image: url(/images/page_dividers/Contact_us_shape.svg);
   background-size: cover;
   font-family: sans-serif;
-  padding: 20vh 10vw;
+  padding: 16vh 10vw;
   color: white;
   z-index: 999;
   margin-top: -40vh;
+}
+
+.contact-us .flex-wrapper {
+  justify-content: space-between;
+}
+
+.contact-us h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.contact-us p {
+  margin-bottom: 2vh;
+}
+
+.contact-us button {
+  background-color: var(--customyellow);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: var(--customblue);
+}
+
+.contact-us-image,
+.contact-us-text {
+  width: 50%;
+}
+
+.contact-us-image img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.contact-us-text {
+  padding: 5vw;
 }
