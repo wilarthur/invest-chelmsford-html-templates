@@ -262,6 +262,7 @@ button.search {
   font-family: sans-serif;
   padding: 10vh 10vw;
   color: var(--customblue);
+  padding-bottom: 40vh;
 }
 
 .latest-news > .latest-news-content > h2 {
@@ -302,9 +303,11 @@ button.search {
 
 /* Homepage contact us section */
 section.contact-us {
-  background-image: url(/images/page_dividers/);
+  background-image: url(/images/page_dividers/Contact_us_shape.svg);
   background-size: cover;
   font-family: sans-serif;
-  padding: 10vh 10vw;
+  padding: 20vh 10vw;
   color: white;
+  z-index: 999;
+  margin-top: -40vh;
 }
