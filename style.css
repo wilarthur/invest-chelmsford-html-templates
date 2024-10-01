@@ -257,7 +257,8 @@ button.search {
 
 /* Homepage news */
 .latest-news {
-  background-color: var(--custommint);
+  background-image: url(/images/page_dividers/News_background_shape.svg);
+  background-size: cover;
   font-family: sans-serif;
   padding: 10vh 10vw;
   color: var(--customblue);
@@ -301,7 +302,8 @@ button.search {
 
 /* Homepage contact us section */
 section.contact-us {
-  background-color: var(--customblue);
+  background-image: url(/images/page_dividers/);
+  background-size: cover;
   font-family: sans-serif;
   padding: 10vh 10vw;
   color: white;
