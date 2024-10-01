@@ -43,7 +43,7 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: "neue-haas-grotesk-display", sans-serif;
 }
 
 #nav-links {
@@ -84,7 +84,7 @@ button.search {
   margin-left: 5vw;
   color: white;
   width: 40vw;
-  font-family: sans-serif;
+  font-family: "neue-haas-grotesk-display", sans-serif;
 }
 
 .hero-text h1 {
@@ -114,7 +114,7 @@ button.search {
 
 /* Main section */
 .main {
-  font-family: sans-serif;
+  font-family: "neue-haas-grotesk-display", sans-serif;
   padding: 10vh 10vw;
 }
 
@@ -259,7 +259,7 @@ button.search {
 .latest-news {
   background-image: url(/images/page_dividers/News_background_shape.svg);
   background-size: cover;
-  font-family: sans-serif;
+  font-family: "neue-haas-grotesk-display", sans-serif;
   padding: 10vh 10vw;
   color: var(--customblue);
   padding-bottom: 40vh;
@@ -305,7 +305,7 @@ button.search {
 section.contact-us {
   background-image: url(/images/page_dividers/Contact_us_shape.svg);
   background-size: cover;
-  font-family: sans-serif;
+  font-family: "neue-haas-grotesk-display", sans-serif;
   padding: 16vh 10vw 0vw;
   color: white;
   z-index: 999;
@@ -353,7 +353,7 @@ section.contact-us {
 footer {
   padding: 10vh;
   margin-top: -1vh;
-  font-family: sans-serif;
+  font-family: "neue-haas-grotesk-display", sans-serif;
   background-color: var(--customblue);
   overflow: hidden;
   color: white;
