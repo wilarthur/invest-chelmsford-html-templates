@@ -1,0 +1,53 @@
+/* Hide main nav and replace with mobile nav */
+
+@media only screen and (max-width: 1100px) {
+  #nav-links {
+    display: none;
+  }
+}
+
+/* Drop hero image under main content */
+@media only screen and (max-width: 1200px) {
+  .hero-text {
+    height: 20vh;
+  }
+
+  .hero-image {
+    background-position: 10vw bottom;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-content {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .hero-content {
+    flex-wrap: wrap;
+  }
+
+  .hero-text,
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-text {
+    padding-top: 5vh;
+    height: 30vh;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-text p {
+    margin-bottom: 5vh;
+  }
+
+  .hero-image {
+    height: 55vh;
+    background-position: bottom right;
+  }
+}

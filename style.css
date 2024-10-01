@@ -109,7 +109,7 @@ button.search {
   width: 60vw;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: bottom right;
 }
 
 /* Main section */
