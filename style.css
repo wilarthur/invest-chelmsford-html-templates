@@ -386,6 +386,8 @@ footer button {
 
 footer .footer-links {
   margin-bottom: 3vh;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer .footer-links a {
@@ -395,4 +397,8 @@ footer .footer-links a {
 
 footer .footer-links p {
   display: inline-block;
+}
+
+footer .council-logo {
+  margin-left: 25px;
 }
