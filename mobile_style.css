@@ -68,3 +68,17 @@
     font-size: 3rem;
   }
 }
+
+/* Panels overflow */
+
+@media only screen and (max-width: 765px) {
+  .panel {
+    width: 100%;
+    height: 85vh;
+    margin-bottom: 5vh;
+  }
+
+  .latest-news-content .flex-wrapper {
+    flex-wrap: wrap;
+  }
+}
