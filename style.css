@@ -306,7 +306,7 @@ section.contact-us {
   background-image: url(/images/page_dividers/Contact_us_shape.svg);
   background-size: cover;
   font-family: sans-serif;
-  padding: 16vh 10vw;
+  padding: 16vh 10vw 0vw;
   color: white;
   z-index: 999;
   margin-top: -40vh;
@@ -346,4 +346,53 @@ section.contact-us {
 
 .contact-us-text {
   padding: 5vw;
+}
+
+/* Footer */
+
+footer {
+  padding: 10vh;
+  margin-top: -1vh;
+  font-family: sans-serif;
+  background-color: var(--customblue);
+  overflow: hidden;
+  color: white;
+}
+
+footer hr {
+  color: white;
+  margin-bottom: 5vh;
+}
+
+footer .newsletter {
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-right: 2vw;
+}
+
+footer button {
+  background-color: var(--customyellow);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: var(--customblue);
+}
+
+footer .footer-links {
+  margin-bottom: 3vh;
+}
+
+footer .footer-links a {
+  color: white;
+  margin-right: 25px;
+}
+
+footer .footer-links p {
+  display: inline-block;
 }
