@@ -105,12 +105,11 @@ button.search {
 }
 
 .hero-image {
-  margin-top: 20vh;
   height: 100%;
   width: 60vw;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
 }
 
 /* Main section */
