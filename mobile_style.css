@@ -51,3 +51,20 @@
     background-position: bottom right;
   }
 }
+
+/* Figures overflow */
+@media only screen and (max-width: 1000px) {
+  .figure span {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .figure {
+    width: 45%;
+  }
+
+  .figure span {
+    font-size: 3rem;
+  }
+}
