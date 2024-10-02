@@ -10,16 +10,17 @@
 @media only screen and (max-width: 1200px) {
   .hero-text {
     height: 20vh;
+    width: 100%;
   }
 
   .hero-image {
     background-position: 10vw bottom;
+    width: 100%;
   }
-}
 
-@media only screen and (max-width: 1200px) {
   .hero-content {
     align-items: flex-start;
+    flex-wrap: wrap;
   }
 }
 
@@ -94,3 +95,5 @@
     width: 100%;
   }
 }
+
+/* Footer */
