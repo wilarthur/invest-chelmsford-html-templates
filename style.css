@@ -408,7 +408,7 @@ footer hr {
 footer .newsletter {
   justify-content: start;
   align-items: center;
-  margin-bottom: 3vh;
+  margin-bottom: 3vh; 
 }
 
 footer h3 {
