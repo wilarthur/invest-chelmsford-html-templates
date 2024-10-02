@@ -97,3 +97,40 @@
 }
 
 /* Footer */
+@media only screen and (max-width: 765px) {
+  footer .newsletter {
+    flex-wrap: wrap;
+  }
+
+  footer .newsletter h3 {
+    margin-bottom: 2vh;
+  }
+
+  footer .newsletter button {
+    margin-bottom: 2vh;
+  }
+
+  footer .footer-links {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  footer .footer-links div {
+    margin-bottom: 2vh;
+    flex-wrap: wrap;
+  }
+
+  footer .footer-links div a {
+    width: 100%;
+    margin-bottom: 2vh;
+  }
+
+  footer .social-logo {
+    width: auto !important;
+  }
+
+  footer .council-logo {
+    margin-top: 2vh;
+    margin-left: 0;
+  }
+}
