@@ -408,7 +408,7 @@ footer hr {
 footer .newsletter {
   justify-content: start;
   align-items: center;
-  margin-bottom: 3vh; 
+  margin-bottom: 3vh;
 }
 
 footer h3 {
@@ -449,4 +449,14 @@ footer .footer-links p {
 
 footer .council-logo {
   margin-left: 25px;
+}
+
+/* Mobile menu */
+
+#open-mobile-menu {
+  display: none;
+}
+
+#mobile-menu {
+  display: none;
 }
