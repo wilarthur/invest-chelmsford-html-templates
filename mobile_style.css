@@ -61,6 +61,7 @@
 
   #mobile-menu .top-mobile-links .logo a {
     padding: 0;
+    padding-top: 4px;
   }
 
   #mobile-menu a {
