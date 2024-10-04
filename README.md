@@ -2,10 +2,8 @@
 
 HTML templates for the Invest Chelmsford website
 
-## Links to Homepage Design
+## Links to designs
 
-### Design 1 on both is our chosen design
+Desktop: <https://www.figma.com/proto/bEp2ck56FjvdMZ9NGxjbcq/CFB-Website-v05---Desktop?page-id=0%3A1&node-id=6083-2311&node-type=canvas&viewport=-2142%2C-660%2C0.25&t=fXVT44lNtPAfzWqH-1&scaling=scale-down&content-scaling=fixed>
 
-Desktop: <https://www.figma.com/proto/CAsk0XKXVOeVAsgXuA35JD/CFB-Homepage-Desktop-v02?page-id=0%3A1&node-id=20-237&node-type=canvas&viewport=-871%2C-394%2C0.25&t=z9sM1aHh5m1zuUDc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=20%3A237&share=1>
-
-Mobile: <https://www.figma.com/proto/l5gAzKkW9zhBAnyLyZmyht/CFB-Homepage-v02-Mobile?page-id=0%3A1&node-id=2013-328&node-type=canvas&viewport=462%2C1100%2C0.25&t=HJCz7NZmFgqcMz4l-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2013%3A328&share=1>
+Mobile: <https://www.figma.com/proto/dfBRsOKcoTlyDiW91Omv5k/CFB-Website-v04---Mobile?page-id=0%3A1&node-id=2013-328&node-type=canvas&viewport=-305%2C118%2C0.25&t=Bym9YXf6cbdeioEk-1&scaling=scale-down&content-scaling=fixed>
