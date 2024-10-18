@@ -107,6 +107,10 @@
     height: 30vh;
   }
 
+  .hero-content-small .hero-text {
+    height: 15vh;
+  }
+
   .hero-text h1 {
     font-size: 3rem;
   }
@@ -162,6 +166,25 @@
   .contact-us-text {
     width: 100%;
   }
+}
+
+/* News landing */
+
+.list-news-item {
+  height: 80vh;
+}
+
+.list-news-item .flex-wrapper {
+  flex-wrap: wrap;
+}
+
+.list-news-image,
+.list-news-story-summary {
+  width: 100%;
+}
+
+.list-news-image {
+  height: 30vh;
 }
 
 /* Footer */
