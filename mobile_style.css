@@ -93,6 +93,10 @@
 }
 
 @media only screen and (max-width: 765px) {
+  .flex-wrapper {
+    flex-wrap: wrap;
+  }
+
   .hero-content {
     flex-wrap: wrap;
   }
@@ -151,7 +155,8 @@
     margin-bottom: 5vh;
   }
 
-  .latest-news-content .flex-wrapper {
+  .latest-news-content .flex-wrapper,
+  .related-news .flex-wrapper {
     flex-wrap: wrap;
   }
 }
@@ -185,6 +190,16 @@
 
 .list-news-image {
   height: 30vh;
+}
+
+/* News story */
+
+.related-news .flex-wrapper .panel {
+  height: 70vh;
+}
+
+.quotemark {
+  height: 5rem;
 }
 
 /* Footer */

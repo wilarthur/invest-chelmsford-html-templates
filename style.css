@@ -5,6 +5,7 @@
   --customyellow: #ffb81c;
   --customlightblue: #47c7c2;
   --customgreen: #48d597;
+  --customlightgreen: #daf7ea;
   --custommint: #d6f1ef;
 }
 
@@ -546,4 +547,102 @@ footer .council-logo {
 .list-news-pagination .current-page {
   background-color: var(--customblue);
   color: white;
+}
+
+/* News story page */
+
+.hero-none {
+  height: 10vh;
+}
+
+.news-content {
+  padding: 10vh 10vw;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-size: 1.2rem;
+  max-width: 1000px;
+}
+
+.news-story-date {
+  display: block;
+  color: var(--customblue);
+  margin-bottom: 5vh;
+}
+
+.news-content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--customblue);
+  margin-bottom: 5rem;
+}
+
+.news-content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--customblue);
+  margin: 2rem 0;
+}
+
+.news-content p {
+  margin-bottom: 1rem;
+}
+
+.news-content figure {
+  margin-bottom: 5vh;
+  color: var(--customblue);
+}
+
+.news-content .one-image img {
+  width: 100%;
+  border-radius: 4vh;
+}
+
+.news-content .flex-wrapper {
+  justify-content: space-between;
+}
+
+.news-content .two-images img {
+  display: inline-block;
+  width: 48%;
+  border-radius: 4vh;
+}
+
+.quoteblock {
+  background-color: var(--customlightgreen);
+  padding: 4vh;
+  border-radius: 4vh;
+  color: var(--customblue);
+  margin-bottom: 5vh;
+}
+
+.quotemark {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-size: 10rem;
+  margin-right: 3rem;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.related-news {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  color: var(--customblue);
+  display: block;
+  background-color: var(--custommint);
+  padding: 0 10vw 40vh;
+}
+
+.related-news h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+.related-news .flex-wrapper {
+  justify-content: space-between;
+  margin-bottom: 10vh;
+}
+
+.related-news .flex-wrapper .panel {
+  height: 50vh;
 }
