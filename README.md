@@ -4,6 +4,6 @@ HTML templates for the Invest Chelmsford website
 
 ## Links to designs
 
-Desktop: <https://www.figma.com/proto/bEp2ck56FjvdMZ9NGxjbcq/CFB-Website-v05---Desktop?page-id=0%3A1&node-id=6083-2311&node-type=canvas&viewport=-2142%2C-660%2C0.25&t=fXVT44lNtPAfzWqH-1&scaling=scale-down&content-scaling=fixed>
+Desktop: <https://www.figma.com/proto/bEp2ck56FjvdMZ9NGxjbcq/CFB-Website-v05---Desktop?page-id=0%3A1&node-id=20-237&node-type=canvas&viewport=-2564%2C-290%2C0.25&t=u5DlalEu9a7sJDrv-1&scaling=scale-down&content-scaling=fixed>
 
-Mobile: <https://www.figma.com/proto/dfBRsOKcoTlyDiW91Omv5k/CFB-Website-v04---Mobile?page-id=0%3A1&node-id=2013-328&node-type=canvas&viewport=-305%2C118%2C0.25&t=Bym9YXf6cbdeioEk-1&scaling=scale-down&content-scaling=fixed>
+Mobile: <https://www.figma.com/proto/1mVd7BySmJ6kLv1FTHMcvB/CFB-Website-v05-Mobile?page-id=0%3A1&node-id=10018-1597&node-type=canvas&viewport=-431%2C240%2C0.25&t=GnS7MdhWuw1wa6Yx-1&scaling=scale-down&content-scaling=fixed>

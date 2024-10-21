@@ -684,3 +684,51 @@ footer .council-logo {
 .related-news .flex-wrapper .panel {
   height: 50vh;
 }
+
+/* Invest logos section */
+
+.left-right {
+  display: block;
+  background-color: var(--custommint);
+  padding: 0 10vw 40vh;
+}
+
+.left,
+.right {
+  justify-content: space-around;
+  margin-bottom: 10vh;
+}
+
+.right {
+  flex-direction: row-reverse;
+}
+
+.left > img,
+.right > img {
+  object-fit: cover;
+  width: 20vw;
+}
+
+.left-right-content {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  width: 50vw;
+  color: var(--customblue);
+}
+
+.left-right-content h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.left-right-content p {
+  margin-bottom: 1rem;
+}
+
+.left-right-icons {
+  width: 30%;
+}
+
+.left-right-icons img {
+  width: 100%;
+}
