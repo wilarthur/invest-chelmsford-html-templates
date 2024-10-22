@@ -49,6 +49,11 @@
     height: 7vh;
   }
 
+  .one-image img,
+  .two-images img {
+    border-radius: 25px;
+  }
+
   #close-mobile-menu {
     display: block;
     width: 50px;
