@@ -889,19 +889,25 @@ footer .council-logo {
   line-height: 2rem;
 }
 
-.list-news-pagination button {
+.list-news-pagination a {
   font-family: "neue-haas-grotesk-display", sans-serif;
-  width: 32px;
-  height: 32px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  padding: 10px;
   font-size: 1.2rem;
   border-radius: 100%;
   margin-left: 10px;
   border: none;
   text-align: center;
+  background-color: lightgray;
+  transition: ease-in-out 0.3s;
 }
 
-.list-news-pagination button:hover {
+.list-news-pagination a:hover {
   cursor: pointer;
+  color: var(--customblue);
+  background-color: var(--customyellow);
 }
 
 .list-news-pagination .current-page {
