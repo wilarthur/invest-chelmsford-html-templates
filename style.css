@@ -860,11 +860,12 @@ footer .council-logo {
   width: 50%;
 }
 
-.list-news-image {
-  background-image: url(https://storage.googleapis.com/pod_public/1300/167870.jpg);
-  background-size: cover;
+.list-news-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
   border-radius: 4vh;
-  background-color: red;
 }
 
 .list-news-story-summary {
