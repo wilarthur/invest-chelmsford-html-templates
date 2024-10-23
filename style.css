@@ -916,6 +916,10 @@ footer .council-logo {
   color: white;
 }
 
+.page-button {
+  text-decoration: none !important;
+}
+
 /* News story page */
 
 .hero-none {
