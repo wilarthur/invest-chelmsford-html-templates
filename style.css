@@ -649,8 +649,9 @@ button.search:hover {
   display: flex;
   max-width: 100vw;
   gap: 1vw;
+  margin: 0 10vw;
+  padding: 10vh 0;
   margin-bottom: 10vh;
-  margin: 10vh 10vw;
 }
 
 .businesses-carousel img {
@@ -670,8 +671,9 @@ button.search:hover {
   display: flex;
   max-width: 100vw;
   gap: 1vw;
+  margin: 0 10vw;
+  padding: 10vh 0;
   margin-bottom: 10vh;
-  margin: 10vh 10vw;
 }
 
 .image-carousel img {
