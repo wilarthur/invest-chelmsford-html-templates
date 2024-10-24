@@ -1091,6 +1091,23 @@ figure {
   margin-bottom: 1rem;
 }
 
+.left-right-content a {
+  background-color: var(--customblue);
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 1rem;
+  transition: ease-in-out 0.3s;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.left-right-content a:hover {
+  cursor: pointer;
+  color: var(--customblue);
+  background-color: var(--customyellow);
+}
+
 .left-right-icons {
   width: 30%;
 }
