@@ -33,7 +33,6 @@
 }
 
 .bg-black {
-  width: 100%;
   background-color: var(--customblack);
 }
 
@@ -500,6 +499,11 @@ button.search:hover {
 .top-figures > p {
   color: var(--customblue);
   margin-bottom: 5vh;
+}
+
+.top-figures.bg-black > p,
+.top-figures.bg-black .figure {
+  color: white;
 }
 
 .top-figures .flex-wrapper {
