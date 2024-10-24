@@ -581,6 +581,7 @@ button.search:hover {
 }
 
 .panel-text h2 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
   font-size: 2rem;
   margin-bottom: 2vh;
   font-weight: bold;
@@ -588,19 +589,21 @@ button.search:hover {
 
 .panel-text p {
   font-size: 0.9rem;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
 }
 
-.panel-text button {
+.panel-text a {
   background-color: var(--customblue);
   color: white;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 5px 15px;
   border-radius: 1rem;
   transition: ease-in-out 0.3s;
+  font-size: 0.9rem;
+  text-decoration: none;
 }
 
-.panel-text button:hover {
+.panel-text a:hover {
   background-color: white;
   color: var(--customblue);
   cursor: pointer;
