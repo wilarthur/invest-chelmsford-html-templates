@@ -697,6 +697,14 @@ button.search:hover {
   padding: 10vh 10vw;
 }
 
+.accordion-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2vh;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  color: var(--customblue);
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: var(--customblue);
