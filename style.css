@@ -700,7 +700,7 @@ button.search:hover {
 .accordion-container h2 {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 2vh;
+  margin-bottom: 3rem;
   font-family: "neue-haas-grotesk-display", sans-serif;
   color: var(--customblue);
 }
