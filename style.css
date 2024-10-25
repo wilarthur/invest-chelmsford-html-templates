@@ -413,8 +413,12 @@ button.search:hover {
 
 /* Video modal */
 
+.video-modal-wrapper {
+  padding: 10vh 0;
+}
+
 .video-modal-thumbnail {
-  margin: 10vh 20vw;
+  margin: 0 20vw;
   width: 60vw;
   height: 20vw;
   background-image: url(/images/placeholder-image-gray-16x9-1.webp);
