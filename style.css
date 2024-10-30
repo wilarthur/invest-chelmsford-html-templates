@@ -200,6 +200,15 @@
   font-size: 1rem;
 }
 
+.rich-text a {
+  color: var(--customblue);
+}
+
+.rich-text a:hover,
+.rich-text a:focus {
+  color: black;
+}
+
 .rich-text h1,
 .rich-text h2,
 .rich-text h3,
@@ -217,8 +226,13 @@
 .rich-text.bg-black h3,
 .rich-text.bg-black h4,
 .rich-text.bg-black h5,
-.rich-text.bg-black h6 {
+.rich-text.bg-black h6,
+.rich-text.bg-black a {
   color: white;
+}
+
+.rich-text.bg-black a:hover {
+  color: var(--customyellow);
 }
 
 .rich-text h1 {
@@ -245,7 +259,7 @@
   font-size: 1.2rem;
 }
 
-.rich-text button {
+.rich-text a.button {
   background-color: var(--customyellow);
   border: none;
   padding: 0.5rem 1rem;
@@ -254,8 +268,8 @@
   transition: ease-in-out 0.3s;
 }
 
-.rich-text button:hover,
-.rich-text button:focus {
+.rich-text a.button:hover,
+.rich-text a.button:focus {
   color: var(--customyellow);
   background-color: var(--customblue);
   cursor: pointer;
