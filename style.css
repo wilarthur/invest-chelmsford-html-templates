@@ -263,7 +263,7 @@
   background-color: var(--customyellow);
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   color: var(--customblue);
   transition: ease-in-out 0.3s;
 }
@@ -375,19 +375,19 @@ button.search:hover {
   font-weight: bold;
 }
 .hero-text p {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
-.hero-text button {
+.hero-text a {
   background-color: var(--customyellow);
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   color: var(--customblue);
   transition: ease-in-out 0.3s;
 }
 
-.hero-text button:hover {
+.hero-text a:hover {
   background-color: white;
   color: var(--customblue);
   cursor: pointer;
