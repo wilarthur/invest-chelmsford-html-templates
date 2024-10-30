@@ -642,8 +642,6 @@ a.intro-text:hover {
 
 /* Homepage news */
 .latest-news {
-  background-image: url(/images/page_dividers/News_background_shape.svg);
-  background-size: cover;
   font-family: "neue-haas-grotesk-display", sans-serif;
   padding: 10vh 10vw;
   color: var(--customblue);
