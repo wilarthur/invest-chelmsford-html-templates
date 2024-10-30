@@ -1107,6 +1107,14 @@ figure {
   padding: 10vh 10vw;
 }
 
+.left-right h2 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: var(--customblue);
+}
+
 .left,
 .right {
   justify-content: space-around;
