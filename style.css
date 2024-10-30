@@ -680,6 +680,10 @@ a.intro-text:hover {
 }
 
 /* Businesses carousel */
+.bg-black > .carousel-heading {
+  color: white;
+}
+
 .carousel-heading {
   color: var(--customblue);
   font-family: "neue-haas-grotesk-display", sans-serif;
