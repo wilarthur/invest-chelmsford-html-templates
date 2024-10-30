@@ -211,6 +211,19 @@
   color: var(--customblue);
 }
 
+.rich-text.bg-black,
+.rich-text.bg-black h1,
+.rich-text.bg-black h2,
+.rich-text.bg-black h3,
+.rich-text.bg-black h4,
+.rich-text.bg-black h5,
+.rich-text.bg-black h6 {
+  color: white;
+}
+
+.rich-text.bg-black a.intro-text {
+}
+
 .rich-text h1 {
   font-size: 3rem;
 }
@@ -384,31 +397,48 @@ button.search:hover {
 }
 
 /* Intro section */
-.intro-text {
+
+h2.intro-text {
   font-family: "neue-haas-grotesk-display", sans-serif;
-  padding: 20vh 20vw;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: auto 10vw;
+  margin-bottom: 5vh;
+}
+
+p.intro-text {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  margin: auto 10vw;
+  margin-bottom: 5vh;
   font-size: 2rem;
-  margin-bottom: 10vh;
-  line-height: 3rem;
 }
 
-.intro-text p {
-  margin-bottom: 2vh;
-}
-
-.intro-text button {
+a.intro-text {
   background-color: var(--customblue);
   color: white;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 5px 15px;
   border-radius: 1rem;
   transition: ease-in-out 0.3s;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin: auto 10vw;
 }
 
-.intro-text button:hover {
-  cursor: pointer;
+a.intro-text:hover {
   background-color: var(--customyellow);
   color: var(--customblue);
+  cursor: pointer;
+}
+
+.rich-text.bg-black a.intro-text {
+  background-color: var(--customyellow);
+  color: var(--customblue);
+}
+
+.rich-text.bg-black a.intro-text:hover {
+  background-color: white;
+  text-decoration: underline;
 }
 
 /* Video modal */
