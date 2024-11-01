@@ -947,6 +947,10 @@ footer .council-logo {
   display: none;
 }
 
+#mobile-search {
+  display: none;
+}
+
 /* News landing */
 
 .list-news-content {
