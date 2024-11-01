@@ -359,6 +359,9 @@ nav a {
   border-radius: 1rem;
   color: var(--customblue);
   transition: ease-in-out 0.3s;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: "neue-haas-grotesk-display", sans-serif;
 }
 
 .get-in-touch:hover {
@@ -376,6 +379,7 @@ button.search {
   color: var(--customblue);
   font-weight: bold;
   transition: ease-in-out 0.3s;
+  font-family: "neue-haas-grotesk-display", sans-serif;
 }
 
 button.search:hover {
