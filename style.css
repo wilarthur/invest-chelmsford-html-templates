@@ -844,18 +844,20 @@ section.contact-us {
 }
 
 .contact-us p {
-  margin-bottom: 2vh;
+  margin-bottom: 4vh;
 }
 
-.contact-us button {
+.contact-us .cta {
   background-color: var(--customyellow);
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   color: var(--customblue);
   transition: ease-in-out 0.3s;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
-.contact-us button:hover {
+.contact-us .cta:hover {
   color: var(--customblue);
   background-color: white;
   cursor: pointer;
