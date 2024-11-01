@@ -23,12 +23,10 @@
 /* Page dividers */
 
 .bg-mint {
-  width: 100%;
   background-color: var(--custommint);
 }
 
 .bg-aqua {
-  width: 100%;
   background-color: var(--customaqua);
 }
 
@@ -37,22 +35,18 @@
 }
 
 .bg-lightblue {
-  width: 100%;
   background-color: var(--customlightblue);
 }
 
 .bg-green {
-  width: 100%;
   background-color: var(--customgreen);
 }
 
 .bg-blue {
-  width: 100%;
   background-color: var(--customblue);
 }
 
 .bg-yellow {
-  width: 100%;
   background-color: var(--customyellow);
 }
 
@@ -1111,11 +1105,14 @@ figure {
 .quoteblock {
   font-family: "neue-haas-grotesk-display", sans-serif;
   margin: 10vh 10vw;
-  background-color: var(--customlightgreen);
   padding: 4vh;
   border-radius: 4vh;
   color: var(--customblue);
   margin-bottom: 5vh;
+}
+
+.quoteblock.bg-black {
+  color: white;
 }
 
 .quotemark {
