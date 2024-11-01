@@ -1180,10 +1180,23 @@ figure {
   background-color: var(--customyellow);
 }
 
+.left-right-content .flex-wrapper {
+  justify-content: space-around;
+}
+
 .left-right-icons {
   width: 30%;
 }
 
 .left-right-icons img {
   width: 100%;
+}
+
+.left-right-icons hr {
+  border: 3px solid;
+}
+
+.left-right-icons span {
+  font-size: 2rem;
+  font-weight: bold;
 }
