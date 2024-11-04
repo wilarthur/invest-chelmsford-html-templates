@@ -417,6 +417,7 @@ button.search:hover {
   border-radius: 2rem;
   color: var(--customblue);
   transition: ease-in-out 0.3s;
+  text-decoration: none;
 }
 
 .hero-text a:hover {
@@ -1240,4 +1241,73 @@ figure {
 .left-right-icons span {
   font-size: 2rem;
   font-weight: bold;
+}
+
+/* Form styling */
+
+form {
+  padding: 10vh 10vw;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+}
+
+form h1,
+form h2,
+form h3,
+form h4,
+form h5,
+form h6,
+form legend {
+  margin-bottom: 3rem;
+}
+
+form h4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+form legend {
+  font-size: 1.8rem;
+}
+
+form label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.umbraco-forms-field-wrapper,
+.checkboxlist-horizontal div,
+.radiobuttonlist-horizontal div {
+  margin: 1vh 0 3vh;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  width: 50%;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+textarea {
+  width: 50%;
+  height: 5rem;
+  font-size: 1rem;
+}
+
+.datepickerfield {
+  height: 2rem;
+  font-size: 1rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.umbraco-forms-field-wrapper label {
+  margin-bottom: 0;
 }
