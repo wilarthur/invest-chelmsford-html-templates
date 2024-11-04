@@ -1287,12 +1287,14 @@ form label {
   width: 50%;
   height: 2rem;
   font-size: 1rem;
+  font-family: "neue-haas-grotesk-display", sans-serif;
 }
 
 textarea {
   width: 50%;
   height: 5rem;
   font-size: 1rem;
+  font-family: "neue-haas-grotesk-display", sans-serif;
 }
 
 .datepickerfield {
@@ -1308,6 +1310,38 @@ input[type="radio"] {
   margin-right: 20px;
 }
 
+input[type="file"] {
+  font-size: 1rem;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+}
+
 .umbraco-forms-field-wrapper label {
   margin-bottom: 0;
+}
+
+.umbraco-forms-field-wrapper div h2 {
+  font-size: 3rem;
+}
+
+.umbraco-forms-field-wrapper div p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.next {
+  background-color: var(--customyellow);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: var(--customblue);
+  transition: ease-in-out 0.3s;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.next:hover,
+.next:focus {
+  color: white;
+  background-color: var(--customblue);
+  cursor: pointer;
 }
