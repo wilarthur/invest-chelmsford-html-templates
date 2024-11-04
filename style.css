@@ -260,6 +260,7 @@
   border-radius: 2rem;
   color: var(--customblue);
   transition: ease-in-out 0.3s;
+  text-decoration: none;
 }
 
 .rich-text a.button:hover,
