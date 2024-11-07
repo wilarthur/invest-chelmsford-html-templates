@@ -957,6 +957,16 @@ footer .council-logo {
   padding: 0 10vw 40vh;
 }
 
+.list-news-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-news-content a:hover h2,
+.list-news-content a:hover p {
+  text-decoration: underline;
+}
+
 .list-news-item {
   height: 50vh;
   width: 100%;
