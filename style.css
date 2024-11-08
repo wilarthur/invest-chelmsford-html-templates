@@ -935,6 +935,10 @@ footer .council-logo {
   margin-left: 25px;
 }
 
+footer .social-logo {
+  width: 40px;
+}
+
 /* Mobile menu */
 
 #open-mobile-menu {
