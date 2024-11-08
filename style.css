@@ -549,7 +549,7 @@ a.intro-text:hover {
 .full-width-video {
   position: relative;
   width: 100%;
-  padding-bottom: 35%;
+  padding-bottom: 70vh;
   margin-bottom: 10vh;
 }
 
@@ -557,7 +557,7 @@ a.intro-text:hover {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 10vh 20vw;
+  margin: 10vh 10vw;
   width: 60vw;
   height: 60vh;
   border: 0;
