@@ -1300,7 +1300,8 @@ form label {
 
 .text,
 select {
-  width: 50%;
+  width: 100%;
+  max-width: 400px;
   height: 2rem;
   font-size: 1rem;
   font-family: "neue-haas-grotesk-display", sans-serif;
@@ -1310,8 +1311,13 @@ select {
   background-color: transparent;
 }
 
+select {
+  max-width: 450px;
+}
+
 textarea {
-  width: 50%;
+  width: 100%;
+  max-width: 400px;
   height: 5rem;
   font-size: 1rem;
   font-family: "neue-haas-grotesk-display", sans-serif;
