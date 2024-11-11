@@ -1308,7 +1308,7 @@ select {
   border-radius: 25px;
   border: 1px solid gray;
   padding: 0 25px;
-  background-color: transparent;
+  background-color: white;
 }
 
 select {
@@ -1323,7 +1323,7 @@ textarea {
   font-family: "neue-haas-grotesk-display", sans-serif;
   border-radius: 25px;
   border: 1px solid gray;
-  padding: 0 25px;
+  padding: 10px 25px;
 }
 
 .datepickerfield {
@@ -1393,4 +1393,30 @@ input[type="file"] {
 
 .last-element {
   padding-bottom: 40vh;
+}
+
+/* 2 column layout */
+
+.two-column {
+  padding: 10vh 10vw;
+}
+
+.two-column .flex-wrapper {
+  justify-content: space-between;
+}
+
+.two-column .column {
+  width: 45%;
+}
+
+.two-column .rich-text {
+  padding: 0;
+}
+
+.two-column .rich-text img {
+  width: 100%;
+}
+
+.two-column form {
+  padding: 0;
 }
