@@ -1270,8 +1270,7 @@ form h2,
 form h3,
 form h4,
 form h5,
-form h6,
-form legend {
+form h6 {
   margin-bottom: 3rem;
 }
 
@@ -1280,8 +1279,9 @@ form h4 {
   font-weight: bold;
 }
 
-form legend {
-  font-size: 1.8rem;
+form legend,
+.umbraco-forms-label {
+  font-size: 1.6rem;
 }
 
 form label {
@@ -1293,7 +1293,7 @@ form label {
 .umbraco-forms-field-wrapper,
 .checkboxlist-horizontal div,
 .radiobuttonlist-horizontal div {
-  margin: 1vh 0 3vh;
+  margin-top: 1vh;
   display: flex;
   align-items: center;
 }
@@ -1330,6 +1330,10 @@ input[type="file"] {
   font-family: "neue-haas-grotesk-display", sans-serif;
 }
 
+.umbraco-forms-field {
+  margin-bottom: 5vh;
+}
+
 .umbraco-forms-field-wrapper label {
   margin-bottom: 0;
 }
@@ -1343,7 +1347,8 @@ input[type="file"] {
   margin-bottom: 1rem;
 }
 
-.next {
+.next,
+.btn.primary {
   background-color: var(--customyellow);
   border: none;
   padding: 0.5rem 1rem;
@@ -1355,7 +1360,9 @@ input[type="file"] {
 }
 
 .next:hover,
-.next:focus {
+.next:focus,
+.btn.primary:hover,
+.btn.primary:focus {
   color: white;
   background-color: var(--customblue);
   cursor: pointer;
