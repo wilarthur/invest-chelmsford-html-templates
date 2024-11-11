@@ -1291,18 +1291,23 @@ form label {
 }
 
 .umbraco-forms-field-wrapper,
-.checkboxlist-horizontal div,
-.radiobuttonlist-horizontal div {
+.checkboxlist-vertical div,
+.radiobuttonlist-vertical div {
   margin-top: 1vh;
   display: flex;
   align-items: center;
 }
 
-.text {
+.text,
+select {
   width: 50%;
   height: 2rem;
   font-size: 1rem;
   font-family: "neue-haas-grotesk-display", sans-serif;
+  border-radius: 25px;
+  border: 1px solid gray;
+  padding: 0 25px;
+  background-color: transparent;
 }
 
 textarea {
@@ -1310,11 +1315,17 @@ textarea {
   height: 5rem;
   font-size: 1rem;
   font-family: "neue-haas-grotesk-display", sans-serif;
+  border-radius: 25px;
+  border: 1px solid gray;
+  padding: 0 25px;
 }
 
 .datepickerfield {
   height: 2rem;
   font-size: 1rem;
+  border-radius: 25px;
+  border: 1px solid gray;
+  padding: 0 25px;
 }
 
 input[type="checkbox"],
@@ -1328,6 +1339,10 @@ input[type="radio"] {
 input[type="file"] {
   font-size: 1rem;
   font-family: "neue-haas-grotesk-display", sans-serif;
+}
+
+.umbraco-forms-hidden {
+  display: none;
 }
 
 .umbraco-forms-field {
