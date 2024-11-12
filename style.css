@@ -498,6 +498,8 @@ a.intro-text:hover {
   height: 20vw;
   background-image: url(/images/placeholder-image-gray-16x9-1.webp);
   background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   font-size: 3rem;
   padding-top: 15vw;
