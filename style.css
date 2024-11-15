@@ -348,6 +348,10 @@ nav a {
   cursor: pointer;
 }
 
+form[action="/search/"] {
+  padding: 0;
+}
+
 .get-in-touch {
   background-color: var(--customyellow);
   border: none;
