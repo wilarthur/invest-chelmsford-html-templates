@@ -32,6 +32,7 @@
 
 .bg-black {
   background-color: var(--customblack);
+  color: white;
 }
 
 .bg-lightblue {
@@ -214,14 +215,14 @@
   color: var(--customblue);
 }
 
-.rich-text.bg-black,
-.rich-text.bg-black h1,
-.rich-text.bg-black h2,
-.rich-text.bg-black h3,
-.rich-text.bg-black h4,
-.rich-text.bg-black h5,
-.rich-text.bg-black h6,
-.rich-text.bg-black a {
+.bg-black .rich-text,
+.bg-black .rich-text h1,
+.bg-black .rich-text h2,
+.bg-black .rich-text h3,
+.bg-black .rich-text h4,
+.bg-black .rich-text h5,
+.bg-black .rich-text h6,
+.bg-black .rich-text a {
   color: white;
 }
 
@@ -710,6 +711,10 @@ a.intro-text:hover {
   margin-bottom: 5vh;
 }
 
+.bg-black .latest-news h2 {
+  color: white;
+}
+
 .latest-news-content .flex-wrapper {
   justify-content: space-between;
   margin-bottom: 10vh;
@@ -740,6 +745,11 @@ a.intro-text:hover {
 .businesses-carousel img {
   height: 100px;
   object-fit: contain;
+}
+
+.bg-black .image-carousel .slick-prev::before,
+.bg-black .image-carousel .slick-next::before {
+  color: white;
 }
 
 .slick-prev::before,
@@ -784,12 +794,17 @@ a.intro-text:hover {
   color: var(--customblue);
 }
 
+.bg-black .accordion-container h2 {
+  color: white;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: var(--customblue);
   color: white;
   cursor: pointer;
   padding: 18px;
+  margin-bottom: 3px;
   width: 100%;
   text-align: left;
   border: none;
@@ -1095,6 +1110,10 @@ figure {
   color: var(--customblue);
 }
 
+.bg-black figure figcaption {
+  color: white;
+}
+
 .one-image {
   padding: 10vh 10vw;
 }
@@ -1188,6 +1207,12 @@ figure {
   font-weight: bold;
   margin-bottom: 2rem;
   color: var(--customblue);
+}
+
+.bg-black .left-right h2,
+.bg-black .left-right h3,
+.bg-black .left-right p {
+  color: white;
 }
 
 .left,
