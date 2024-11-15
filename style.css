@@ -511,6 +511,10 @@ a.intro-text:hover {
   cursor: pointer;
 }
 
+.video-modal-thumbnail.last-element {
+  background-position: top;
+}
+
 .video-modal {
   display: none;
   width: 100%;
