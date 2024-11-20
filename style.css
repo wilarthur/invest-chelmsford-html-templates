@@ -45,6 +45,7 @@
 
 .bg-blue {
   background-color: var(--customblue);
+  color: white;
 }
 
 .bg-yellow {
@@ -226,7 +227,22 @@
   color: white;
 }
 
+.bg-blue .rich-text,
+.bg-blue .rich-text h1,
+.bg-blue .rich-text h2,
+.bg-blue .rich-text h3,
+.bg-blue .rich-text h4,
+.bg-blue .rich-text h5,
+.bg-blue .rich-text h6,
+.bg-blue .rich-text a {
+  color: white;
+}
+
 .rich-text.bg-black a:hover {
+  color: var(--customyellow);
+}
+
+.rich-text.bg-blue a:hover {
   color: var(--customyellow);
 }
 
@@ -486,7 +502,17 @@ a.intro-text:hover {
   color: var(--customblue);
 }
 
+.rich-text.bg-blue a.intro-text {
+  background-color: var(--customyellow);
+  color: var(--customblue);
+}
+
 .rich-text.bg-black a.intro-text:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
+.rich-text.bg-blue a.intro-text:hover {
   background-color: white;
   text-decoration: underline;
 }
@@ -596,6 +622,11 @@ a.intro-text:hover {
   color: white;
 }
 
+.top-figures.bg-blue > p,
+.top-figures.bg-blue .figure {
+  color: white;
+}
+
 .top-figures .flex-wrapper {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -663,6 +694,7 @@ a.intro-text:hover {
 
 .panel-image {
   height: 50%;
+  background-size: cover;
 }
 
 .panel-text {
@@ -723,6 +755,10 @@ a.intro-text:hover {
   color: white;
 }
 
+.bg-blue .latest-news h2 {
+  color: white;
+}
+
 .latest-news-content .flex-wrapper {
   justify-content: space-between;
   margin-bottom: 10vh;
@@ -730,6 +766,10 @@ a.intro-text:hover {
 
 /* Businesses carousel */
 .bg-black > .carousel-heading {
+  color: white;
+}
+
+.bg-blue > .carousel-heading {
   color: white;
 }
 
@@ -760,10 +800,16 @@ a.intro-text:hover {
   color: white;
 }
 
+.bg-blue .image-carousel .slick-prev::before,
+.bg-blue .image-carousel .slick-next::before {
+  color: white;
+}
+
 .slick-prev::before,
 .slick-next::before {
   opacity: 1;
   color: var(--customblue);
+  font-size: 32px;
 }
 
 /* Image carousel */
@@ -803,6 +849,10 @@ a.intro-text:hover {
 }
 
 .bg-black .accordion-container h2 {
+  color: white;
+}
+
+.bg-blue .accordion-container h2 {
   color: white;
 }
 
@@ -1122,6 +1172,10 @@ figure {
   color: white;
 }
 
+.bg-blue figure figcaption {
+  color: white;
+}
+
 .one-image {
   padding: 10vh 10vw;
 }
@@ -1157,6 +1211,10 @@ figure {
 }
 
 .quoteblock.bg-black {
+  color: white;
+}
+
+.quoteblock.bg-blue {
   color: white;
 }
 
@@ -1220,6 +1278,12 @@ figure {
 .bg-black .left-right h2,
 .bg-black .left-right h3,
 .bg-black .left-right p {
+  color: white;
+}
+
+.bg-blue .left-right h2,
+.bg-blue .left-right h3,
+.bg-blue .left-right p {
   color: white;
 }
 
