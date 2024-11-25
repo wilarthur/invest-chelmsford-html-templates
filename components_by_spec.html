@@ -1601,8 +1601,19 @@
             });
         }
     </script>
+    <!-- Check if page is search page -->
     <script>
-        
+        const heroText = document.getElementsByClassName('hero-text');
+
+        if (window.location.href.indexOf("search") > -1) {
+
+            for (let i = 0; i < heroText.length; i++) {
+                heroText[i].setAttribute(
+                    "style", "text-align: center; margin-left: 0;"
+                );
+
+            }
+        }
     </script>
 </body>
 
