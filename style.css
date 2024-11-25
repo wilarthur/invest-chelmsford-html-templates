@@ -1168,6 +1168,15 @@ footer .social-logo {
   color: var(--customblue);
 }
 
+.news-content .one-image,
+.news-content .quoteblock,
+.news-content .two-images,
+.news-content .full-width-video iframe,
+.news-content .accordion-container {
+  padding: 10vh 0;
+  margin: 0;
+}
+
 figure {
   font-family: "neue-haas-grotesk-display", sans-serif;
   color: var(--customblue);
