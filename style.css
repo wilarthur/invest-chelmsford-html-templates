@@ -812,6 +812,11 @@ a.intro-text:hover {
   font-size: 32px;
 }
 
+.last-element > .slick-prev,
+.last-element > .slick-next {
+  padding-bottom: 33vh;
+}
+
 /* Image carousel */
 
 .image-carousel {
