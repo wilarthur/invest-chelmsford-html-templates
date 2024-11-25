@@ -1256,7 +1256,7 @@ figure {
   color: var(--customblue);
   display: block;
   background-color: var(--custommint);
-  padding: 0 10vw 40vh;
+  padding: 10vh 10vw;
 }
 
 .related-news h3 {
