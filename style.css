@@ -737,7 +737,6 @@ a.intro-text:hover {
   font-family: "neue-haas-grotesk-display", sans-serif;
   padding: 0vh 10vw 10vh;
   color: var(--customblue);
-  padding-bottom: 40vh;
 }
 
 .latest-news > .latest-news-content > h2 {
