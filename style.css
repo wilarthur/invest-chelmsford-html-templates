@@ -675,7 +675,7 @@ a.intro-text:hover {
 
 .panel {
   width: 30%;
-  height: 75vh;
+  height: 60vh;
   border-radius: 4vh;
   overflow: hidden;
   background-color: white;
@@ -711,7 +711,7 @@ a.intro-text:hover {
 }
 
 .panel-text p {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   margin-bottom: 3vh;
 }
 
@@ -722,7 +722,7 @@ a.intro-text:hover {
   padding: 5px 15px;
   border-radius: 1rem;
   transition: ease-in-out 0.3s;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
