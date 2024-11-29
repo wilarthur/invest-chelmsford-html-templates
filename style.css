@@ -609,8 +609,7 @@ a.intro-text:hover {
 /* Top figures */
 .top-figures {
   font-family: "neue-haas-grotesk-display", sans-serif;
-  margin-bottom: 10vh;
-  padding: 10vh 10vw;
+  padding: 10vh 10vw 0;
 }
 
 .top-figures > p {
@@ -635,10 +634,11 @@ a.intro-text:hover {
 }
 
 .figure {
-  width: 30%;
+  width: 26%;
   height: 30vh;
   color: var(--customblue);
   font-weight: bold;
+  font-size: 1.4rem;
 }
 
 .figure span {
