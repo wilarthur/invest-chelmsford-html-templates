@@ -429,6 +429,7 @@ button.search:hover {
   font-weight: bold;
 }
 .hero-text p {
+  font-size: 1.4rem;
   margin-bottom: 2rem;
 }
 
