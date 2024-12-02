@@ -320,6 +320,30 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   font-family: "neue-haas-grotesk-display", sans-serif;
+  height: 100%;
+  align-content: center;
+}
+
+.dropdown {
+  height: 100%;
+  align-content: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--customblue);
+  min-width: 150px;
+  top: 14vh;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 #nav-links {
