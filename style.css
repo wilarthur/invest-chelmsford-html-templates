@@ -321,6 +321,7 @@ nav a {
   font-weight: bold;
   font-family: "neue-haas-grotesk-display", sans-serif;
   height: 100%;
+  padding: 10px;
   align-content: center;
 }
 
@@ -342,7 +343,9 @@ nav a {
   padding: 10px;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown a:focus + .dropdown-content,
+.dropdown .dropdown-content a:focus {
   display: block;
 }
 
@@ -688,7 +691,6 @@ a.intro-text:hover {
 .color-panels {
   font-family: "neue-haas-grotesk-display", sans-serif;
   padding: 10vh 10vw;
-  margin-bottom: 10vh;
 }
 
 .color-panels .flex-wrapper {
