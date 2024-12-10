@@ -315,6 +315,18 @@ nav .logo a img {
   height: 7vh;
 }
 
+nav ul {
+  display: flex;
+  width: 33vw;
+  height: 100%;
+  justify-content: space-between;
+}
+
+nav ul li {
+  height: 100%;
+  align-content: center;
+}
+
 nav a {
   color: white;
   text-decoration: none;
@@ -325,35 +337,39 @@ nav a {
   align-content: center;
 }
 
-.dropdown {
-  height: 100%;
-  align-content: center;
+nav a:hover {
+  text-decoration: underline;
 }
 
-.dropdown-content {
+/* Dropdown menu */
+
+nav div > ul li ul {
   display: none;
+}
+nav div > ul li.open ul {
+  display: block;
   position: absolute;
   background-color: var(--customblue);
-  min-width: 150px;
-  top: 14vh;
+  width: auto;
+  height: auto;
+  margin-top: 3vh;
 }
 
-.dropdown-content a {
-  display: block;
-  padding: 10px;
+nav div > ul li.open ul li {
+  padding: 10px 0;
 }
 
-.dropdown:hover .dropdown-content,
-.dropdown a:focus + .dropdown-content,
-.dropdown .dropdown-content a:focus {
-  display: block;
+.dropdownButton {
+  background-color: transparent;
+  border: none;
+  color: white;
 }
 
 #nav-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50vw;
+  width: 55vw;
   margin-right: 5vw;
 }
 
