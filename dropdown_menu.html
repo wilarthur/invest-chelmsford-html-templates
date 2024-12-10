@@ -59,6 +59,8 @@
                 <input type="search" name="search" id="search-bar-input">
                 <button type="submit"><i class="fas fa-search"></i></button>
             </div>
+
+
             <div id="mobile-menu">
                 <div class="top-mobile-links">
                     <div class="logo">
@@ -66,8 +68,20 @@
                     </div>
                     <button id="close-mobile-menu" onclick="closeMobileMenu()"><i class="fa-solid fa-x"></i></button>
                 </div>
-                <a href="">Invest</a><a href="">Sectors</a><a href="">Support</a><a href="">News</a><a href="">Contact
-                    us</a>
+                <ul>
+                    <li class="has-mobile-submenu"><a href="">Invest</a><button class="dropdownButton"><i
+                                class="fa-solid fa-caret-down"></i></button>
+                        <ul>
+                            <li><a href="…">Dropdown 1</a></li>
+                            <li><a href="…">Dropdown 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Sectors</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Contact
+                            us</a></li>
+                </ul>
             </div>
         </header>
     </div>

@@ -79,13 +79,29 @@
     padding-top: 4px;
   }
 
+  #mobile-menu li {
+    padding: 20px;
+    display: block;
+  }
+
   #mobile-menu a {
-    width: 100%;
     padding: 20px;
     font-size: 3rem;
-    display: block;
+    display: inline;
     color: white;
     font-family: "neue-haas-grotesk-display", sans-serif;
+  }
+
+  #mobile-menu .dropdownButton {
+    font-size: 3rem;
+  }
+
+  #mobile-menu .has-mobile-submenu ul {
+    display: none;
+  }
+
+  #mobile-menu .has-mobile-submenu.open ul {
+    display: block;
   }
 }
 
