@@ -11,6 +11,11 @@
   --customblack: #2d2926;
 }
 
+p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
 .container {
   max-width: 1280px;
   margin: auto;
@@ -658,6 +663,8 @@ a.intro-text:hover {
 .top-figures > p {
   color: var(--customblue);
   margin-bottom: 5vh;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .top-figures.bg-black > p,
@@ -754,6 +761,7 @@ a.intro-text:hover {
 
 .panel-text p {
   font-size: 1.2rem;
+  line-height: 1.4;
   margin-bottom: 3vh;
 }
 
@@ -791,6 +799,8 @@ a.intro-text:hover {
 
 .latest-news p {
   margin-bottom: 5vh;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .bg-black .latest-news h2 {
@@ -915,6 +925,7 @@ a.intro-text:hover {
   border: none;
   outline: none;
   transition: 0.4s;
+  font-size: 1.2rem;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -938,6 +949,8 @@ a.intro-text:hover {
 }
 
 .accordion-panel p {
+  font-size: 1.2rem;
+  line-height: 1.4;
   padding: 1rem;
 }
 /* Homepage contact us section */
@@ -963,6 +976,8 @@ section.contact-us {
 
 .contact-us p {
   margin-bottom: 4vh;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .cta {
@@ -1051,6 +1066,8 @@ footer .footer-links a {
 
 footer .footer-links p {
   display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 footer .council-logo {
@@ -1135,6 +1152,7 @@ footer .social-logo {
 
 .list-news-story-summary p {
   font-size: 1.2rem;
+  line-height: 1.4;
   line-height: 2rem;
 }
 
@@ -1203,6 +1221,8 @@ footer .social-logo {
 
 .news-content p {
   margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .news-content figure {
@@ -1282,6 +1302,8 @@ figure {
 
 .quoteblock p {
   margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .quoteblock img {
@@ -1372,6 +1394,8 @@ figure {
 }
 
 .left-right-content p {
+  font-size: 1.2rem;
+  line-height: 1.4;
   margin-bottom: 1rem;
 }
 
@@ -1520,6 +1544,7 @@ input[type="file"] {
 
 .umbraco-forms-field-wrapper div p {
   font-size: 1.2rem;
+  line-height: 1.4;
   margin-bottom: 1rem;
 }
 
