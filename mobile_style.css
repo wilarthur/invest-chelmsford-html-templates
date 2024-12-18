@@ -205,10 +205,26 @@
     margin-bottom: 5vh;
   }
 
+  .panel-image {
+    height: 40%;
+  }
+
   /* Top figures */
 
   .top-figures {
     padding: 10vh 5vw 0;
+  }
+
+  /* Left right content */
+
+  .left-right-content {
+    width: 100%;
+  }
+
+  .left > img,
+  .right > img {
+    width: 100%;
+    margin-bottom: 5vh;
   }
 
   .latest-news-content .flex-wrapper,
