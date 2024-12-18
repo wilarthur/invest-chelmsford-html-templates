@@ -198,7 +198,8 @@ p {
 .rich-text p,
 .rich-text a {
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .rich-text a {
@@ -283,6 +284,8 @@ p {
   color: var(--customblue);
   transition: ease-in-out 0.3s;
   text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .rich-text a.button:hover,
@@ -492,6 +495,8 @@ button.search:hover {
   color: var(--customblue);
   transition: ease-in-out 0.3s;
   text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .hero-text a:hover {
@@ -536,11 +541,13 @@ a.intro-text {
   color: white;
   border: none;
   padding: 5px 15px;
-  border-radius: 1rem;
+  border-radius: 2rem;
   transition: ease-in-out 0.3s;
   font-size: 0.9rem;
   text-decoration: none;
   margin: auto 10vw;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 a.intro-text:hover {
@@ -773,9 +780,10 @@ a.intro-text:hover {
   color: white;
   border: none;
   padding: 5px 15px;
-  border-radius: 1rem;
+  border-radius: 2rem;
   transition: ease-in-out 0.3s;
   font-size: 1.2rem;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -987,11 +995,12 @@ section.contact-us {
   background-color: var(--customyellow);
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   color: var(--customblue);
   transition: ease-in-out 0.3s;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .cta:hover {
   color: var(--customblue);
@@ -1065,12 +1074,17 @@ footer .footer-links {
 footer .footer-links a {
   color: white;
   margin-right: 25px;
+  font-size: 1.2rem;
 }
 
 footer .footer-links p {
   display: inline-block;
   font-size: 1.2rem;
   line-height: 1.4;
+}
+
+footer .footer-links .flex-wrapper {
+  align-items: center;
 }
 
 footer .council-logo {
@@ -1145,6 +1159,7 @@ footer .social-logo {
 }
 
 .list-news-story-date {
+  font-size: 1.2rem;
   color: var(--customblue);
   margin-bottom: 1vh;
   display: block;
@@ -1160,7 +1175,6 @@ footer .social-logo {
 .list-news-story-summary p {
   font-size: 1.2rem;
   line-height: 1.4;
-  line-height: 2rem;
 }
 
 .list-news-pagination a {
@@ -1210,6 +1224,7 @@ footer .social-logo {
   display: block;
   color: var(--customblue);
   margin-bottom: 5vh;
+  font-size: 1.2rem;
 }
 
 .news-content h1 {
@@ -1249,6 +1264,11 @@ footer .social-logo {
 figure {
   font-family: "neue-haas-grotesk-display", sans-serif;
   color: var(--customblue);
+}
+
+figcaption {
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .bg-black figure figcaption {
@@ -1411,9 +1431,10 @@ figure {
   color: white;
   border: none;
   padding: 5px 15px;
-  border-radius: 1rem;
+  border-radius: 2rem;
   transition: ease-in-out 0.3s;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -1560,11 +1581,12 @@ input[type="file"] {
   background-color: var(--customyellow);
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   color: var(--customblue);
   transition: ease-in-out 0.3s;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .next:hover,
