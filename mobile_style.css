@@ -9,6 +9,10 @@
     display: none;
   }
 
+  .mobile-buttons-container {
+    display: inherit;
+  }
+
   #open-mobile-menu {
     display: inline-block;
     width: 50px;

@@ -340,6 +340,7 @@ nav a {
   height: 100%;
   padding: 10px;
   align-content: center;
+  font-size: 1.2rem;
 }
 
 nav a:hover {
@@ -420,11 +421,11 @@ form[action="/search/"] {
   background-color: var(--customyellow);
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   color: var(--customblue);
   transition: ease-in-out 0.3s;
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-family: "neue-haas-grotesk-display", sans-serif;
 }
 
@@ -439,8 +440,9 @@ button.search {
   border: none;
   padding: 0.5rem 1rem;
   margin-left: 1vw;
-  border-radius: 1rem;
+  border-radius: 2rem;
   color: var(--customblue);
+  font-size: 1.2rem;
   font-weight: bold;
   transition: ease-in-out 0.3s;
   font-family: "neue-haas-grotesk-display", sans-serif;
@@ -1079,6 +1081,10 @@ footer .social-logo {
 }
 
 /* Mobile menu */
+
+.mobile-buttons-container {
+  display: none;
+}
 
 #open-mobile-menu {
   display: none;
