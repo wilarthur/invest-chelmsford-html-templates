@@ -304,9 +304,10 @@ p {
 }
 
 nav {
-  height: 10vh;
+  height: 12vh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav .logo {
@@ -317,7 +318,7 @@ nav .logo {
 }
 
 nav .logo a img {
-  height: 7vh;
+  height: 8vh;
 }
 
 nav ul {
@@ -341,6 +342,7 @@ nav a {
   padding: 10px;
   align-content: center;
   font-size: 1.2rem;
+  margin-right: 1vw;
 }
 
 nav a:hover {
@@ -373,9 +375,9 @@ nav div > ul li.open ul li {
 
 #nav-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
-  width: 55vw;
+  width: 100%;
   margin-right: 5vw;
 }
 
@@ -439,7 +441,6 @@ button.search {
   background-color: white;
   border: none;
   padding: 0.5rem 1rem;
-  margin-left: 1vw;
   border-radius: 2rem;
   color: var(--customblue);
   font-size: 1.2rem;
@@ -1195,7 +1196,7 @@ footer .social-logo {
 /* News story page */
 
 .hero-none {
-  height: 10vh;
+  height: 12vh;
 }
 
 .news-content {
