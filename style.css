@@ -1394,7 +1394,7 @@ figcaption {
 
 .left-right {
   display: block;
-  padding: 10vh 10vw;
+  padding: 10vh 10vw 0;
 }
 
 .left-right h2 {
