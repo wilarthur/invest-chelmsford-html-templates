@@ -222,6 +222,16 @@ p {
   color: var(--customblue);
 }
 
+.rich-text ul {
+  list-style: disc;
+  margin-left: 1rem;
+}
+
+.rich-text ol {
+  list-style: decimal;
+  margin-left: 1rem;
+}
+
 .bg-black .rich-text,
 .bg-black .rich-text h1,
 .bg-black .rich-text h2,
@@ -963,11 +973,17 @@ a.intro-text:hover {
   transition: max-height 0.2s ease-out;
 }
 
-.accordion-panel p {
+.accordion-panel .rich-text {
+  padding: 0;
+}
+
+.accordion-panel p,
+.accordion-panel a {
   font-size: 1.2rem;
   line-height: 1.4;
-  padding: 1rem;
+  padding: 3vh 0;
 }
+
 /* Homepage contact us section */
 section.contact-us {
   background-image: url(/images/page_dividers/Contact_us_shape.svg);
