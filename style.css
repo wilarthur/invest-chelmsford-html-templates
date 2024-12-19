@@ -1,5 +1,9 @@
 /*Set theme colors*/
 
+* {
+  letter-spacing: 1px;
+}
+
 :root {
   --customblue: #004751;
   --customyellow: #ffb81c;
