@@ -975,6 +975,7 @@ a.intro-text:hover {
 
 .accordion-panel .rich-text {
   padding: 0;
+  margin-bottom: 10vh;
 }
 
 .accordion-panel p,
