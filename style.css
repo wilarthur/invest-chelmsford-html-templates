@@ -914,6 +914,19 @@ a.intro-text:hover {
   object-fit: contain;
 }
 
+.slick-prev,
+.slick-next {
+  z-index: 999;
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
+
 .slick-prev::before,
 .slick-next::before {
   opacity: 1;
