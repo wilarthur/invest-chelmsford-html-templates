@@ -269,8 +269,15 @@
     height: 70vh;
   }
 
-  .quotemark {
-    height: 5rem;
+  /* Quote block */
+
+  .quoteblock img {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .quoteblock-text {
+    width: 100%;
   }
 
   /* Two column */

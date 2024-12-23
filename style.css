@@ -1374,21 +1374,29 @@ figcaption {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-size: 10rem;
   margin-right: 3rem;
+  position: absolute;
+}
+
+.quoteblock-text {
+  width: 70%;
 }
 
 .quoteblock p {
+  margin-top: 75px;
   margin-bottom: 1rem;
   font-size: 1.2rem;
   line-height: 1.4;
 }
 
 .quoteblock img {
-  max-height: 100px;
+  width: 30%;
   margin-right: 25px;
+  object-fit: contain;
 }
 
-.author {
+.quoteblock .author {
   font-weight: bold;
+  margin-top: 0;
 }
 
 .related-news {
