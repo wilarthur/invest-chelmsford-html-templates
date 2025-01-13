@@ -773,6 +773,7 @@ a.intro-text:hover {
 .panel-image {
   height: 35%;
   background-size: cover;
+  background-position: center;
 }
 
 .panel-text {

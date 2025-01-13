@@ -207,6 +207,7 @@
 
   .panel-image {
     height: 40%;
+    background-position: center;
   }
 
   /* Top figures */
