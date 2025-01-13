@@ -1419,7 +1419,11 @@ figcaption {
 }
 
 .related-news .flex-wrapper .panel {
-  height: 50vh;
+  height: 65vh;
+}
+
+.related-news .panel .panel-text a:hover {
+  text-decoration: underline;
 }
 
 /* Left-right logos section */
