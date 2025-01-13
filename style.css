@@ -1430,7 +1430,6 @@ figcaption {
 
 .left-right {
   display: block;
-  padding: 0 10vw 10vh;
 }
 
 .left-right h2 {
@@ -1456,6 +1455,7 @@ figcaption {
 .left,
 .right {
   justify-content: space-around;
+  padding: 5vh 10vw;
 }
 
 .right {
