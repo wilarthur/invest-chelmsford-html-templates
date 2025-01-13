@@ -407,6 +407,7 @@ nav div > ul li.open ul li {
   background-color: var(--customblue);
   justify-content: center;
   align-items: center;
+  position: absolute;
 }
 
 #search-bar-input {
