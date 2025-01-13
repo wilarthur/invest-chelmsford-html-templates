@@ -340,14 +340,14 @@ nav .logo a img {
 
 nav ul {
   display: flex;
-  width: 33vw;
+  width: auto;
   height: 100%;
   justify-content: space-between;
 }
 
 nav ul li {
   height: 100%;
-  align-content: center;
+  margin-right: 1vw;
 }
 
 nav a {
@@ -359,7 +359,6 @@ nav a {
   padding: 10px;
   align-content: center;
   font-size: 1.2rem;
-  margin-right: 1vw;
 }
 
 nav a:hover {
@@ -377,7 +376,7 @@ nav div > ul li.open ul {
   background-color: var(--customblue);
   width: auto;
   height: auto;
-  margin-top: 3vh;
+  padding-top: 3vh;
 }
 
 nav div > ul li.open ul li {
