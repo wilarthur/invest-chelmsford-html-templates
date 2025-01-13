@@ -445,6 +445,7 @@ form[action="/search/"] {
   font-weight: bold;
   font-size: 1.2rem;
   font-family: "neue-haas-grotesk-display", sans-serif;
+  text-decoration: none;
 }
 
 .get-in-touch:hover {
