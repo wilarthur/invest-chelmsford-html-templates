@@ -1304,12 +1304,15 @@ footer .social-logo {
 }
 
 .news-content .one-image,
-.news-content .quoteblock,
 .news-content .two-images,
 .news-content .full-width-video iframe,
 .news-content .accordion-container {
   padding: 10vh 0;
   margin: 0;
+}
+
+.news-content .quoteblock {
+  padding: 4vh;
 }
 
 figure {
@@ -1362,6 +1365,10 @@ figcaption {
   border-radius: 4vh;
   color: var(--customblue);
   margin-bottom: 5vh;
+}
+
+.quoteblock.noimage .quoteblock-text {
+  width: 100%;
 }
 
 .quoteblock.bg-black {
