@@ -901,6 +901,10 @@ a.intro-text:hover {
   padding-bottom: 33vh;
 }
 
+.slick-track {
+  display: flex !important;
+}
+
 /* Image carousel */
 
 .image-carousel {
