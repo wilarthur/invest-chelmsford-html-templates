@@ -805,6 +805,8 @@ a.intro-text:hover {
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
+  display: block;
+  width: fit-content;
 }
 
 .panel-text a:hover {
