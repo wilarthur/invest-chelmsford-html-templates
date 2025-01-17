@@ -5,6 +5,16 @@ $(document).ready(function () {
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 950,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+        },
+      },
+    ],
   });
 });
 
