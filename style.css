@@ -877,6 +877,7 @@ a.intro-text:hover {
   height: 100px;
   object-fit: contain;
   padding: 0 5px;
+  width: 100%;
 }
 
 .bg-black .image-carousel .slick-prev::before,
