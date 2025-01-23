@@ -373,7 +373,6 @@ nav div > ul li ul {
 nav div > ul li.open ul {
   display: block;
   position: absolute;
-  background-color: var(--customblue);
   width: auto;
   height: auto;
   padding-top: 3vh;
@@ -381,6 +380,7 @@ nav div > ul li.open ul {
 
 nav div > ul li.open ul li {
   padding: 10px 0;
+  background-color: var(--customblue);
 }
 
 .dropdownButton {
