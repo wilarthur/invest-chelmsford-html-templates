@@ -1582,6 +1582,12 @@ form label {
   align-items: center;
 }
 
+.umbraco-forms-form input.text,
+.umbraco-forms-form textarea {
+  max-width: 800px !important;
+  width: 100%;
+}
+
 .text,
 select {
   width: 100%;
@@ -1597,6 +1603,7 @@ select {
 
 select {
   max-width: 850px;
+  height: 2.5rem !important;
 }
 
 textarea {
