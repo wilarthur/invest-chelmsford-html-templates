@@ -135,6 +135,10 @@
     display: none;
   }
 
+  .left-right-icons {
+    display: none;
+  }
+
   .hero-content {
     flex-wrap: wrap;
   }
