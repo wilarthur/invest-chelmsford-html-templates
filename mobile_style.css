@@ -275,6 +275,10 @@
     height: 30vh;
   }
 
+  .list-news-story-summary h2 {
+    font-size: 1.8rem;
+  }
+
   /* News story */
 
   .related-news .flex-wrapper .panel {
