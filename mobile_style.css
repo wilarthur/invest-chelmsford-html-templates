@@ -131,6 +131,10 @@
     flex-wrap: wrap;
   }
 
+  img[alt="Blank Spacer"] {
+    display: none;
+  }
+
   .hero-content {
     flex-wrap: wrap;
   }
