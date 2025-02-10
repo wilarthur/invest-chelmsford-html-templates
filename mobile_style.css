@@ -126,9 +126,9 @@
 }
 
 @media only screen and (max-height: 815px) {
-  .hero-image {
+  /* .hero-image {
     background-size: 75%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 765px) {
