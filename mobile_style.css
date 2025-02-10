@@ -33,6 +33,7 @@
     transition: 0.5s;
     display: block;
     overflow-x: hidden;
+    z-index: 999;
   }
 
   #mobile-search {
