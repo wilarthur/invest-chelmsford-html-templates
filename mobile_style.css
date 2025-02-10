@@ -171,6 +171,11 @@
     margin-bottom: 5vh;
   }
 
+  .hero-text a {
+    display: block;
+    margin-right: 5vw;
+  }
+
   .hero-image {
     height: 55vh;
     background-position: bottom right;
