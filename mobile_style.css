@@ -172,7 +172,7 @@
   }
 
   .hero-text a {
-    display: block;
+    display: inline-block;
     margin-right: 5vw;
   }
 
