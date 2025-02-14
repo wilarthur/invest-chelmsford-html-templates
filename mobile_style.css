@@ -86,18 +86,21 @@
 
   #mobile-menu li {
     padding: 20px;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   #mobile-menu a {
-    font-size: 3rem;
+    font-size: 2rem;
     display: inline;
     color: white;
     font-family: "neue-haas-grotesk-display", sans-serif;
   }
 
   #mobile-menu .dropdownButton {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   #mobile-menu .has-mobile-submenu ul {
@@ -106,6 +109,7 @@
 
   #mobile-menu .has-mobile-submenu.open ul {
     display: block;
+    width: 100%;
   }
 }
 
@@ -164,10 +168,11 @@
   }
 
   .hero-text h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .hero-text p {
+    font-size: 1.2rem;
     margin-bottom: 5vh;
   }
 
@@ -208,6 +213,10 @@
   a.intro-text {
     margin: 0;
     margin-bottom: 5vh;
+  }
+
+  p.intro-text {
+    font-size: 1.4rem;
   }
 
   /* Video modal */
