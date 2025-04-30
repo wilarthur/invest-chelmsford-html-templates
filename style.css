@@ -20,6 +20,12 @@ p {
   line-height: 1.4;
 }
 
+ul li {
+  font-size: 1.2rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
 .container {
   max-width: 1280px;
   margin: auto;
