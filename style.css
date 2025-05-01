@@ -390,6 +390,7 @@ nav div > ul li.open ul {
 nav div > ul li.open ul li {
   padding: 10px 0;
   background-color: var(--customblue);
+  margin: 0;
 }
 
 .dropdownButton {
