@@ -385,6 +385,7 @@ nav div > ul li.open ul {
   width: auto;
   height: auto;
   padding-top: 3vh;
+  padding-left: 0;
 }
 
 nav div > ul li.open ul li {
