@@ -408,6 +408,10 @@ nav div > ul li.open ul li {
   margin-right: 5vw;
 }
 
+#nav-links ul li{
+  margin-bottom: 0;
+}
+
 #search-bar {
   display: none;
 }
