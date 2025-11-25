@@ -408,7 +408,7 @@ nav div > ul li.open ul li {
   margin-right: 5vw;
 }
 
-#nav-links ul li{
+#nav-links ul li {
   margin-bottom: 0;
 }
 
@@ -1322,10 +1322,43 @@ footer .social-logo {
   margin: 2rem 0;
 }
 
+.news-content h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--customblue);
+  margin: 1rem 0;
+}
+
+.news-content h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--customblue);
+  margin: 1rem 0;
+}
+
 .news-content p {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   line-height: 1.4;
+}
+
+.news-story a.button {
+  background-color: var(--customyellow);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  color: var(--customblue);
+  transition: ease-in-out 0.3s;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.news-story a.button:hover,
+.news-story a.button:focus {
+  color: var(--customyellow);
+  background-color: var(--customblue);
+  cursor: pointer;
 }
 
 .news-content figure {
